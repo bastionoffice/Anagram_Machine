@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Xavier's Anagram solver</title>
+	<title>An Anagram solver</title>
 	<meta content="Fastest online anagram solver on the planet! Solves anagrams in English or Dutch for free! Featuring two large dictionaries of well over 150,000 words." name="description" />
 	<meta content="Anagram, solver, anagram solver, solving, dutch, english, dictionary, fast, easy" name="keywords" /> 
 	
@@ -21,7 +21,8 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 </head>
 <body onload="document.getElementById('form').focus();">
 	<div id="cc">
-		<div id="title">XAVIERs ANAGRAM SOLVER</div>
+		<div id="title">AN ANAGRAM SOLVER</div>
+		<div id="title">Type your word and the Enter key</div>
 		<form action="javascript:solve()" onsubmit="solve();">
 			<input type="text" name="q" id="form" style="outline: none;" autocomplete="off"/>
 			
@@ -31,7 +32,7 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 			</div>
 			
 			<div style="text-align:center; right: 25%; width:100px; position:absolute;">
-				<input type="radio" id="lang_nl" name="a"> Dutch<br />
+				<input type="radio" id="lang_nl" name="a"> Dutch (future implementation)<br />
 				<span class="count">180,000 words</span>
 			</div>
 		</form>
