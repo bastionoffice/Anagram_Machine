@@ -1,5 +1,4 @@
-<?php
-/*	
+<?/*	
 	This file allows you to import a TXT dictionary file into a database suited for the solver.
 	Executing this file takes some time and lot's of memory.
 	This script could be more efficient, but since you'll only need it once or twice, it's no big deal.
@@ -32,9 +31,9 @@
 */
 ini_set("memory_limit","64M");
 
-$db_host = 'dev-db.c17ziqujsqqm.ca-central-1.rds.amazonaws.com:3306';
-$db_user = 'admin';
-$db_pwd = 'K0rgl3s!';
+$db_host = 'localhost:8889';
+$db_user = 'root';
+$db_pwd = 'root';
 
 $db_database = 'anagram';
 $db_table = 'english';

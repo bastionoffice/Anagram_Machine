@@ -4,11 +4,12 @@ Probably the fastest anagram solver on the planet. It's written in PHP and uses 
 ## Installation
 It's fairly simple to setup.
 
-1. Upload the contents of the folder src/ to your webserver
-2. Create a new MySQL database
-3. Import the dbStructure.sql file into your database
+DONE: 1. Upload the contents of the folder src/ to your webserver
+DONE: 2. Create a new MySQL database
+DONE: 3. Import the dbStructure.sql file into your database
+DONE: (fixed script syntax)
 4. Populate the database with a dictionary. (There is a script in the tools/ folder that can help you with this. English and Dutch dictionaries are also included)
-4. Edit the database settings in search.php
+DONE: 4. Edit the database settings in search.php
 
 ## Live demo
 The anagram solver is running on my website: [anagram.savjee.be](http://anagram.savjee.be)
