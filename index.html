@@ -46,8 +46,13 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 		</div>
 
 	</div>
-		<h1>Welcome to my home page on server instance;</h1>
-<?php include 'instance.php';?>	
-
+<?php include 'vars.php';
+echo "I have a $color $car.";
+?>
+<?php include 'instance.php';
+?>	
+<?php
+echo "<p>Copyright &copy; 2017-" . date("Y") . </p>";
+?>
 </body>
 </html>
