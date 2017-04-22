@@ -45,7 +45,7 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 			<br />
 			<br />
 			<br />
-		<div style="text-align:center; right: 50%; width:800px; position:absolute;">
+		<div style="text-align:center; right: 25%; width:800px; position:absolute;">
 				<name="a"> 
 				<?php include ('instance.php');?><br />
 			</div>
