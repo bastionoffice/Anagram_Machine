@@ -31,7 +31,7 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 				<span class="count">150,762 words</span>
 			</div>
 			
-		<div style="text-align:center; right: 25%; width:200px; position:absolute;">
+			<div style="text-align:center; right: 25%; width:200px; position:absolute;">
 				<name="a"> 
 				<?php include ('instance.php');?><br />
 			</div>
@@ -44,8 +44,9 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 		<div id="results">
 			
 		</div>
-		
-				
+		<div style="text-align:center; width:400px; position:absolute;">
+				<name="a"> 
+				<?php include ('instance.php');?><br />
 		</div>
 	</div>
 
