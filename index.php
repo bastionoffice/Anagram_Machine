@@ -26,7 +26,7 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 		<form action="javascript:solve()" onsubmit="solve();">
 			<input type="text" name="q" id="form" style="outline: none;" autocomplete="off"/>
 			
-			<div style="text-align:center; left: 50%; width:100px; position:absolute;">
+			<div style="text-align:center; left: 25%; width:100px; position:absolute;">
 				English<br />
 				<span class="count">150,762 words</span>
 			</div>
@@ -45,7 +45,7 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 			<br />
 			<br />
 			<br />
-		<div style="text-align:center; right: 50%; width:400px; position:absolute;">
+		<div style="text-align:center; right: 50%; width:800px; position:absolute;">
 				<name="a"> 
 				<?php include ('instance.php');?><br />
 			</div>
