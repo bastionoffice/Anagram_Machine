@@ -31,7 +31,7 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 				<span class="count">150,762 words</span>
 			</div>
 			
-			<div style="text-align:center; right: 5%; width:300px; position:absolute;">
+			<div style="text-align:center; right: 2%; width:600px; position:absolute;">
 					<name="a"> 
 					<?php include ('instance.php');?><br />
 			</div>
