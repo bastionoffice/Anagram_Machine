@@ -27,11 +27,14 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 			<input type="text" name="q" id="form" style="outline: none;" autocomplete="off"/>
 			
 			<div style="text-align:center; left: 25%; width:100px; position:absolute;">
-				English<br />
+				<input type="radio" id="lang_eng" name="a" checked> English<br />
 				<span class="count">150,762 words</span>
 			</div>
 			
-			
+			<div style="text-align:center; right: 25%; width:200px; position:absolute;">
+					<name="a"> 
+					<?php include ('instance.php');?><br />
+			</div>
 		</form>
 
 		<div id="loading">
@@ -41,17 +44,9 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 		<div id="results">
 			
 		</div>
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-			<br />
-		<div style="text-align:center; right: 25%; width:800px; position:absolute;">
-				<name="a"> 
-				<?php include ('instance.php');?><br />
-			</div>
+		
+				
+		</div>
 	</div>
 
 </body>
