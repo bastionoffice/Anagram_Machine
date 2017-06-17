@@ -32,7 +32,7 @@
 */
 ini_set("memory_limit","64M");
 
-$db_host = 'dev-db.c17ziqujsqqm.ca-central-1.rds.amazonaws.com:3306';
+$db_host = 'anagram00.c17ziqujsqqm.ca-central-1.rds.amazonaws.com:3306';
 $db_user = 'admin';
 $db_pwd = 'K0rgl3s!';
 
@@ -43,7 +43,7 @@ $db_table = 'english';
 if (!mysql_connect($db_host, $db_user, $db_pwd)) die("Can't connect to database");
 if (!mysql_select_db($db_database)) die("Can't select database");
 
-$myFile = "dicEng.txt";
+$myFile = "dicOpenOffice.txt";
 $fh = fopen($myFile, 'r');
 $data = fread($fh,filesize($myFile));
 fclose($fh);
