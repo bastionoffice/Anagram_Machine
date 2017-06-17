@@ -33,7 +33,7 @@
 ini_set("memory_limit","64M");
 
 $db_host = 'anagram00.c17ziqujsqqm.ca-central-1.rds.amazonaws.com:3306';
-$db_user = 'admin';
+$db_user = 'Ceesawlstuff';
 $db_pwd = 'K0rgl3s!';
 
 $db_database = 'anagram';
