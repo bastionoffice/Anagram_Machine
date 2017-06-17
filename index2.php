@@ -46,10 +46,26 @@ header, footer, article, nav, div {
   background: orange;
 }
 </style>
+<script type="text/javascript">
+	function solve(){var b=document.getElementById("form").value,c=document.getElementById("results"),d=document.getElementById("lang_eng");document.getElementById("loading").style.display="block";document.getElementById("results").style.display="none";if(b==""||b==" ")c.innerHTML="You need to enter an anagram!";else{var a=new XMLHttpRequest;a.open("GET","search.php?q="+b+"&lang="+(d.checked?"english":"dutch"),true);a.onreadystatechange=function(){if(a.readyState==4)if(a.status==200){c.innerHTML=a.responseText;
+	document.getElementById("loading").style.display="none";document.getElementById("results").style.display="block"}else c.innerHTML="Our database server seems to be on fire..."};a.send(null)}};
+</script>
 <body>
   <header id="pageHeader">Anagrams</header>
-  <article id="mainArticle">Enter the word</article>
-  
+  <article id="mainArticle">AN ANAGRAM SOLVER</article>
+  		<div id="title">Type your word (English only) and the Enter key</div>
+		<form action="javascript:solve()" onsubmit="solve();">
+			<input type="text" name="q" id="form" style="outline: none;" autocomplete="off"/>
+			
+			<div style="text-align:center; left: 5%; width:100px; position:absolute;">
+				150,762 words English<br />
+			</div>
+			
+			<div style="text-align:center; right: 5%; width:600px; position:absolute;">
+					<name="a"> 
+					<?php include ('instance.php');?><br />
+			</div>
+		</form>
   <div id="siteAds">Sponsors</div>
   <footer id="pageFooter">Instance</footer>
 </body>
