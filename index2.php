@@ -53,19 +53,14 @@ header, footer, article, nav, div {
 <body>
   <header id="pageHeader">Anagrams</header>
   <article id="mainArticle">AN ANAGRAM SOLVER</article>
-  		<div id="title">Type your word (English only) and the Enter key</div>
+  		<p>Type your word (English only) and the Enter key</p>
 		<form action="javascript:solve()" onsubmit="solve();">
 			<input type="text" name="q" id="form" style="outline: none;" autocomplete="off"/>
-			
-			<div style="text-align:center; left: 5%; width:100px; position:absolute;">
-				150,762 words English<br />
-			</div>
-			
-			<div style="text-align:center; right: 5%; width:600px; position:absolute;">
-					<name="a"> 
-					<?php include ('instance.php');?><br />
-			</div>
+ <nav id="mainNav">Dictionary contains 150,762 words English</nav>
 		</form>
   <div id="siteAds">Sponsors</div>
-  <footer id="pageFooter">Instance</footer>
+  <footer id="pageFooter">"text-align:center; right: 5%; width:600px; position:absolute;">
+					<name="a"> 
+					<?php include ('instance.php');?><br /
+					</footer>
 </body>
