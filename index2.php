@@ -119,7 +119,7 @@
 		
 	</style>
 	
-	<script type="text/javascript">
+/*	<script type="text/javascript">
 		/* =============================
 		This script generates sample text for the body content. 
 		You can remove this script and any reference to it. 
@@ -128,7 +128,8 @@
 		function generateText(sentenceCount){
 			for (var i=0; i<sentenceCount; i++)
 			document.write(bodyText[Math.floor(Math.random()*7)]+" ")
-		}
+		} */
+		
 	</script>
 <script type="text/javascript">
 	function solve(){var b=document.getElementById("form").value,c=document.getElementById("results"),d=document.getElementById("lang_eng");document.getElementById("loading").style.display="block";document.getElementById("results").style.display="none";if(b==""||b==" ")c.innerHTML="You need to enter an anagram!";else{var a=new XMLHttpRequest;a.open("GET","search.php?q="+b+"&lang="+(d.checked?"english":"dutch"),true);a.onreadystatechange=function(){if(a.readyState==4)if(a.status==200){c.innerHTML=a.responseText;
