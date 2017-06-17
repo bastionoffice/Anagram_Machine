@@ -27,11 +27,11 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 			<input type="text" name="q" id="form" style="outline: none;" autocomplete="off"/>
 			
 			<div style="text-align:center; left: 5%; width:100px; position:absolute;">
-				<input type="radio" id="lang_eng" name="a" checked> English<br />
-				<span class="count">150,762 words</span>
+				
+				<span class="count">150,762 English words</span>
 			</div>
 			
-			<div style="text-align:center; right: 25%; width:300px; position:absolute;">
+			<div style="text-align:center; right: 55%; width:500px; position:absolute;">
 					<name="a"> 
 					<?php include ('instance.php');?><br />
 			</div>
