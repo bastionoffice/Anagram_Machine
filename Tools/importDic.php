@@ -61,7 +61,7 @@ for ($counter = 0; $counter <= count($wordsArray) -1; $counter++) {
 	//sort the array
 	sort($alfa);
 	$alfaSQL = implode("", $alfa);
-	$sql = mysql_query("INSERT INTO `anagram`.`english` (`Word`,`alfa`) VALUES ('".$wordsArray[$counter]."', '".$alfaSQL."');");
+	$sql = mysql_query("INSERT INTO `anagram01`.`english` (`Word`,`alfa`) VALUES ('".$wordsArray[$counter]."', '".$alfaSQL."');");
 	
 }
 
