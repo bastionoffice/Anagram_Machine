@@ -36,14 +36,14 @@ $db_host = 'anagram00.c17ziqujsqqm.ca-central-1.rds.amazonaws.com:3306';
 $db_user = 'Ceesawlstuff';
 $db_pwd = 'K0rgl3s!';
 
-$db_database = 'anagram';
+$db_database = 'anagram01';
 $db_table = 'english';
 
 //Connect do DB
 if (!mysql_connect($db_host, $db_user, $db_pwd)) die("Can't connect to database");
 if (!mysql_select_db($db_database)) die("Can't select database");
 
-$myFile = "dicOpenOffice.txt";
+$myFile = "dicEng.txt";
 $fh = fopen($myFile, 'r');
 $data = fread($fh,filesize($myFile));
 fclose($fh);

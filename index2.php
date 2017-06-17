@@ -28,7 +28,7 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 			
 			<div style="text-align:center; left: 5%; width:100px; position:absolute;">
 				<input type="radio" id="lang_eng" name="a" checked> English<br />
-				<span class="count">181,687 words</span>
+				<span class="count">150,762 words</span>
 			</div>
 			
 			<div style="text-align:center; right: 25%; width:300px; position:absolute;">
