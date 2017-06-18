@@ -34,9 +34,8 @@
 		}
 		
 		#right {
-			width: 130px;
+			width: 230px;
 			padding: 0 10px;
-			right: 240px;
 			margin-right: -100%;
 		}
 		
