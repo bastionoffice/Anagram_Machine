@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>3 Column Layout</title>
+	<title>Anagrams</title>
 	<style type="text/css">
 
 		/* Layout */
@@ -36,6 +36,7 @@
 		#right {
 			width: 130px;
 			padding: 0 10px;
+			right: 240px;
 			margin-right: -100%;
 		}
 		
