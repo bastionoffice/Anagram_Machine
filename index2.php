@@ -141,11 +141,11 @@
 						<p>Type your word (English only) and the Enter key</p>
 		<form action="javascript:solve()" onsubmit="solve();">
 			<input type="text" name="q" id="form" style="outline: none;" autocomplete="off"/>
-		<input type="radio" id="lang_eng" name="a" checked> English<br />
+		<input type="radio" id="lang_eng" name="a" checked>English<br />
 			</form>
 
 		<nav id="left" class="column">
-			<h3>Left heading1</h3>
+			<h3>Left heading</h3>
 			<ul>
 				<li><a href="#">Link 1</a></li>
 				<li><a href="#">Link 2</a></li>
