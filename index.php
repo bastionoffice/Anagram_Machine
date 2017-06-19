@@ -21,7 +21,7 @@ body{background-image:url("data:image/png;base64,	iVBORw0KGgoAAAANSUhEUgAAAGQAAA
 </head>
 <body onload="document.getElementById('form').focus();">
 	<div id="cc">
-		<div id="title">AN ANAGRAM SOLVER</div>
+		<div id="title">AN ANAGRAM SOLVER in Silver</div>
 		<div id="title">Type your word (English only) and the Enter key</div>
 		<form action="javascript:solve()" onsubmit="solve();">
 			<input type="text" name="q" id="form" style="outline: none;" autocomplete="off"/>
